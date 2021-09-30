@@ -1,9 +1,13 @@
 body{
-    margin: 30px;
+    margin: 0px;
     background-color: lavenderblush;
 }
 header{
-    background-color: plum;
-}
-footer{ background-color: lightcoral;}
+    background-color:#FBF1E3;
+    text-align: center;
 
+}
+header h1{ color:rosybrown; font-size: 80pxe; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+header img{ border-radius: 150px; margin-top: 50px; border:15px dotted #7A618E }
+header p{font-style: italic; font-size: 25px ; color: gray;}
+main{ margin-left: 40px; text-align:initial;}
