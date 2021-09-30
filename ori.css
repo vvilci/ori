@@ -1,3 +1,9 @@
 body{
+    margin: 30px;
     background-color: lavenderblush;
 }
+header{
+    background-color: plum;
+}
+footer{ background-color: lightcoral;}
+
