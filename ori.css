@@ -1,13 +1,67 @@
 body{
     margin: 0px;
     background-color: lavenderblush;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+    line-height: 30px;
 }
 header{
-    background-color:#FBF1E3;
+    background-color:hsl(318, 32%, 39%);
     text-align: center;
+    font-family: 'Gluten', cursive;
+    
 
 }
-header h1{ color:rosybrown; font-size: 80pxe; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
-header img{ border-radius: 150px; margin-top: 50px; border:15px dotted #7A618E }
-header p{font-style: italic; font-size: 25px ; color: gray;}
-main{ margin-left: 40px; text-align:initial;}
+header h1{ color:rgb(245, 235, 235); font-size: 80px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+header img{ border-radius: 190px; margin-top: 50px; border:18px dotted #efe0f7 }
+header p{ font-style: italic; font-size: 25px ; color: rgb(235, 214, 214);}
+
+main{ max-width: 1300px; 
+    margin: 5 auto;
+    padding: 0 60px;
+    text-align: center;
+     
+    }
+
+    .column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+    border-radius: 150px ;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h1, h2 {
+      font-family:'Gluten', cursive ; font-size: 35px; color:#540936 ;
+  }
+  main img{
+      max-width: 100%;
+      
+  }
+  p{
+      font-size: 18px;
+  }
+  p.caption{
+      margin: 0;
+     font-style: italic;
+      font-size:13px;
+      font-family:'Yanone Kaffeesatz', sans-serif; color:#4E464B ;
+  }
+  footer{
+      background-color:hsl(318, 32%, 39%) ;
+      text-align: center;
+      color: rgb(251, 236, 253);
+      padding: 50px ;
+  }
+footer p{
+    margin: 0;
+    
+}
+footer a{
+    color: rgb(245, 230, 250);
+}
